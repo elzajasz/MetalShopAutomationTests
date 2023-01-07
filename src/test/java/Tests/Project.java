@@ -21,7 +21,7 @@ import java.util.concurrent.TimeUnit;
 
 public class Project {
     static WebDriver driver;
-
+    //update on main
     void Login(String login, String password) {
         WebElement myAccount = driver.findElement(By.id("menu-item-125"));
         myAccount.click();
@@ -50,6 +50,7 @@ public class Project {
         int number = Integer.parseInt(numberOnly);
         return number;
     }
+
 
     @BeforeEach
     void prepareBrowser() {
